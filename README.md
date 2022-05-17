@@ -29,7 +29,7 @@ Docker login
 To generate a key run this command in your CLI
 
 ```bash
-  docker trust key generate Signature
+  docker trust key generate signature
 ```
 - This "Signature" is the name you will give to your key and it will be saved in your working directory with the .pub extension
 - After running this command you will be asked to enter and repeat a passphrase.
