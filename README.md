@@ -8,9 +8,9 @@ Docker Content Trust (DCT) provides the ability to use digital signatures for da
 - Docker hub account
 - Docker contrainer image
 ## Documentation
-
+Refer the DCT 
 [Documentation](https://docs.docker.com/engine/security/trust/)
-
+here
 
 ## Deployment
 ### Make a docker repository for your images
@@ -51,6 +51,11 @@ docker trust signer add --key signature.pub [signer's name] [your repository's n
 docker ps
 ``` 
 - Let's push an unsigned image for reference
+-First tag the image as unsigned-image
+```bash
+ docker image tag [Image ID] [Repository Name]:unsigned-image
+```
+- Now push the image with
 ```bash
  docker push [Repository Name]:unsigned-image
 ```
