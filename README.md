@@ -17,7 +17,8 @@ here
 - Go to [Docker Hub](https://hub.docker.com/) and sign in with your docker hub account
 - Click on Create repository and name it "test"
 - It should look something like this.
------- screeshots
+
+![docker create repo](https://user-images.githubusercontent.com/67914403/169215095-bc4f50ca-73cf-4909-b5e5-b5906d8765e2.png)
 
 ### Do Docker login in your CLI with 
 ```bash 
